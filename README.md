@@ -100,7 +100,6 @@ reply：
 
 
     if( ! (-e $szBaseFilePath) ){
-        
         my $hProcess;
         my $szCmd = "perl\.exe ForEnumDB.pl $gszBasedbPath";
         if ( Win32::Process::Create($hProcess, "c:\\perl\\bin\\perl.exe", $szCmd, 0, NORMAL_PRIORITY_CLASS|CREATE_NEW_CONSOLE, $rootPath) ) {
@@ -122,6 +121,7 @@ reply:
     {
         $statement = "select FileID, FileName from TFileMeta, TFileName where TFileMeta.FileNameID==TFileName.FileNameID";
     }
+    
     if($szTableName eq "TFilePathFTS4"){
         $statement = "select FileID, FileFolder, FileName from TFileMeta, TFileName, TFileFolder where TFileMeta.FileNameID==TFileName.FileNameID and TFileMeta.FileFolderID ==TFileFolder.FileFolderID";
     }
