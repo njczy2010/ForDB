@@ -1,0 +1,279 @@
+[Mon Nov  2 13:34:37 2015]:Begin the ForEnumDB.pl,DBname = D:\czy\work\ForDB\MBG.db.
+[Mon Nov  2 13:34:37 2015]:list tablename statement:select name from sqlite_master where type="table" ORDER BY "name"
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TAPICall
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TAPICall)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TAPICall
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TAPICall
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TCmdLine
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TCmdLine)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TCmdLine
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TCmdLine
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TCommonApiStrMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TCommonApiStrMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TCommonApiStrMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TCommonApiStrMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TContentHash
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TContentHash)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TContentHash
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TContentHash
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TDnsMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TDnsMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TDnsMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TDnsMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TDnsQueryHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TDnsQueryHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TDnsQueryHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TDnsQueryHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileFolder
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileFolder)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileFolder
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileFolder
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileName
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileName)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileName
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileName
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileNameFTS4
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileNameFTS4
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileNameFTS4_content
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileNameFTS4_content)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileNameFTS4_content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileNameFTS4_content
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileNameFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileNameFTS4_segdir)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileNameFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileNameFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileNameFTS4_segments
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileNameFTS4_segments)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileNameFTS4_segments
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileNameFTS4_segments
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileNameFTS4_stat
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileNameFTS4_stat)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileNameFTS4_stat
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileNameFTS4_stat
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFileOP
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFileOP)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFileOP
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFileOP
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePathFTS4
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePathFTS4
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePathFTS4_content
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFilePathFTS4_content)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFilePathFTS4_content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePathFTS4_content
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePathFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFilePathFTS4_segdir)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFilePathFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePathFTS4_segdir
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePathFTS4_segments
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFilePathFTS4_segments)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFilePathFTS4_segments
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePathFTS4_segments
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePathFTS4_stat
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFilePathFTS4_stat)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFilePathFTS4_stat
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePathFTS4_stat
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TFilePropagationHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TFilePropagationHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TFilePropagationHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TFilePropagationHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TGroupNameMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TGroupNameMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TGroupNameMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TGroupNameMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, THostMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (THostMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM THostMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, THostMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TInjectionModuleInfo
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TInjectionModuleInfo)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TInjectionModuleInfo
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TInjectionModuleInfo
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TInternetHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TInternetHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TInternetHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TInternetHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TIpMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TIpMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TIpMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TIpMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TModuleHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TModuleHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TModuleHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TModuleHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TModuleTree
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TModuleTree)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TModuleTree
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TModuleTree
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TNetworkConnection
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TNetworkConnection)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TNetworkConnection
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TNetworkConnection
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TObjectMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TObjectMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TObjectMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TObjectMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TPopularString
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TPopularString)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TPopularString
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TPopularString
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TProxyMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TProxyMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TProxyMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TProxyMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TRegKeyMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TRegKeyMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TRegKeyMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TRegKeyMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TRegValueDataMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TRegValueDataMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TRegValueDataMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TRegValueDataMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TRegValueNameMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TRegValueNameMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TRegValueNameMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TRegValueNameMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TRegistryHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TRegistryHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TRegistryHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TRegistryHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TServerNameMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TServerNameMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TServerNameMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TServerNameMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TSignatureHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TSignatureHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TSignatureHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TSignatureHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TSignatureMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TSignatureMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TSignatureMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TSignatureMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TSignerMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TSignerMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TSignerMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TSignerMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TSystemConfig
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TSystemConfig)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TSystemConfig
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TSystemConfig
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TUpnMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TUpnMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TUpnMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TUpnMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TUrlMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TUrlMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TUrlMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TUrlMeta
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TUrlMonHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TUrlMonHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TUrlMonHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TUrlMonHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TUserAccountAPIHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TUserAccountAPIHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TUserAccountAPIHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TUserAccountAPIHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TWinnetHistory
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TWinnetHistory)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TWinnetHistory
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TWinnetHistory
+[Mon Nov  2 13:34:37 2015]:Begin to print table, TWinnetMeta
+[Mon Nov  2 13:34:37 2015]:list tableinfo statement:PRAGMA table_info (TWinnetMeta)
+[Mon Nov  2 13:34:37 2015]:Begin to print table content
+[Mon Nov  2 13:34:37 2015]:print table content statement=SELECT * FROM TWinnetMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to print table content
+[Mon Nov  2 13:34:37 2015]:Succeed to print table, TWinnetMeta
+[Mon Nov  2 13:34:37 2015]:Succeed to run ForEnumDB.pl
+[Mon Nov  2 13:37:50 2015]:Begin to compare file, base file is result.txt, new file is result2.txt
+[Mon Nov  2 13:37:51 2015]:Succeed to compare file, base file is result.txt, new file is result2.txt
